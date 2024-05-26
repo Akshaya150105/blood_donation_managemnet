@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: paleturquoise;
+        
+        }
+
+        .wrapper {
+            width: 420px;
+            background: transparent;
+            border: 2px solid rgba(225, 225, 225, .2);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+            color: black;
+            border-radius: 10px;
+            padding: 30px 10px;
+        }
+
+        .wrapper h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .wrapper .input-box {
+            width: 100%;
+            height: 50px;
+            margin: 30px 0;
+        }
+
+        .wrapper .btn {
+            width: 100%;
+            height: 45px;
+            background: #a73333;
+            border: none;
+            outline: none;
+            border-radius: 40px;
+            box-shadow:0 0 10px rgba(0, 0, 0, .1);
+            cursor: pointer;
+            font-size: 16px;
+            color: #333;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+            <h1>You can share messages, why not blood?</h1>
+            <div class="input-box">
+                <form action="userreg">
+                    <button role="button" class="btn">INSERT</button>
+                </form>
+            </div>
+            <div class="input-box">
+                <form action="updateuser">
+                    <button role="button" class="btn">UPDATE</button>
+                </form>
+            </div>
+            <div class="input-box">
+                <form action="display">
+                    <button role="button" class="btn">DISPLAY</button>
+                </form>
+            </div>
+            <div class="input-box">
+                <form action="delete">
+                    <button role="button" class="btn">DELETE</button>
+                </form> 
+            </div>
+        
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+   
+ 
